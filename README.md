@@ -45,12 +45,19 @@ Below are the key columns included in the **cleaned dataset** (the raw/unprocess
 
 ---
 
-## 1️⃣ Most Reviewed Products
+# 🔍 Analysis (Queries, Output, Insight, Recommendation)
+## 🔹 Product Popularity & Customer Behavior
 
-**Business Question:**  
-Which products received the highest number of customer reviews?  
+**Questions:**
+1. Which products have the highest number of reviews?
+2. Is there a correlation between product rating and total reviews?
+3. Do higher-rated products lead to more sales last month?
 
-**SQL Query:**
+---
+
+## 1️⃣ Which products have the highest number of reviews?
+
+### SQL Query
 ```sql
 SELECT
     product_title,
@@ -60,5 +67,4 @@ SELECT
 FROM products
 ORDER BY total_reviews DESC
 LIMIT 10;
-
 
