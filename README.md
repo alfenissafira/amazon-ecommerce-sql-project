@@ -69,17 +69,18 @@ WHERE total_reviews IS NOT NULL
 ORDER BY total_reviews DESC
 LIMIT 10;
 
-| Product Title | Category | Total Reviews | Rating |
-|---------------|----------|---------------|--------|
-| Amazon Basics 48-Pack AA Alkaline High-Performance Batteries, 1.5 Volt, 10-Year Shelf Life | Laptops | 865,598 | 4.7 |
-| SanDisk 32GB Ultra microSDHC UHS-I Memory Card with Adapter - 98MB/s, C10, U1, Full HD, A1, Micro SD Card - SDSQUAR-032G-GN6MA | Chargers & Cables | 645,418 | 4.7 |
-| [Older Version] SanDisk 32GB 2-Pack Ultra MicroSDHC UHS-I Memory Card (2x32GB) - SDSQUAR-032G-GN6MT | Storage | 645,416 | 4.7 |
-| Amazon Basics AAA Alkaline High-Performance Batteries, 1.5 Volt, 10-Year Shelf Life, 36 Count (Pack of 1) | Laptops | 625,776 | 4.7 |
-| Amazon Basics HDMI Cable, 3ft, 4K@60Hz, High-Speed 4K HDMI 2.0 Cord (18Gbps), 2160p, 48 bit, Compatible with TV/PS5/Xbox/Roku, Black | Chargers & Cables | 553,927 | 4.7 |
-| Amazon Fire TV Stick, sharp picture quality, fast streaming, free & live TV, Alexa Voice Remote with TV controls | Smart Home | 517,617 | 4.7 |
-| SanDisk 1TB Extreme microSDXC UHS-I Memory Card with Adapter - Up to 160MB/s, C10, U3, V30, 4K, A2, Micro SD - SDSQXA1-1T00-GN6MA | Chargers & Cables | 353,306 | 4.8 |
-| [Older Version] SanDisk 128GB Ultra microSDXC UHS-I Memory Card with Adapter - 120MB/s, C10, U1, Full HD, A1, Micro SD Card - SDSQUA4-128G-GN6MA | Chargers & Cables | 315,834 | 4.7 |
-| Blink Mini - Compact indoor plug-in smart security camera, 1080p HD video, night vision, motion detection, two-way audio, easy set up, Works with Alexa – 1 camera (Black) | Cameras | 302,790 | 4.4 |
-| SanDisk Cruzer Blade 8GB USB 2.0 Flash Drive- SDCZ50-008G-B35 | Storage | 298,061 | 4.6 |
+##Output
+| Product Title                               | Category          | Total Reviews | Rating |
+|--------------------------------------------|-----------------|---------------|--------|
+| Amazon Basics 48-Pack AA Batteries, 1.5V   | Laptops          | 865,598       | 4.7    |
+| SanDisk 32GB Ultra microSDHC w/ Adapter    | Chargers & Cables| 645,418       | 4.7    |
+| [Older Version] SanDisk 32GB 2-Pack microSDHC | Storage       | 645,416       | 4.7    |
+| Amazon Basics AAA Batteries, 1.5V, 10Y, 36ct | Laptops        | 625,776       | 4.7    |
+| Amazon Basics HDMI Cable 3ft, 4K@60Hz      | Chargers & Cables| 553,927       | 4.7    |
+| Amazon Fire TV Stick w/ Alexa Remote       | Smart Home       | 517,617       | 4.7    |
+| SanDisk 1TB Extreme microSDXC w/ Adapter   | Chargers & Cables| 353,306       | 4.8    |
+| [Older Version] SanDisk 128GB Ultra microSDXC | Chargers & Cables| 315,834     | 4.7    |
+| Blink Mini Indoor Security Camera, 1080p HD | Cameras         | 302,790       | 4.4    |
+| SanDisk Cruzer Blade 8GB USB 2.0 Flash Drive | Storage        | 298,061       | 4.6    |
 
 
