@@ -45,3 +45,20 @@ Below are the key columns included in the **cleaned dataset** (the raw/unprocess
 
 ---
 
+## 1️⃣ Most Reviewed Products
+
+**Business Question:**  
+Which products received the highest number of customer reviews?  
+
+**SQL Query:**
+```sql
+SELECT
+    product_title,
+    product_category,
+    total_reviews,
+    product_rating
+FROM products
+ORDER BY total_reviews DESC
+LIMIT 10;
+
+
