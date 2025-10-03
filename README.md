@@ -1,1 +1,1 @@
-# 🛒 Amazon Product Sales Analysis (SQL Project)
+#📊 Amazon Electronics Sales Analysis — SQL Portfolio Project
